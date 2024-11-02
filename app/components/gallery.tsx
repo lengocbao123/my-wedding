@@ -2,7 +2,6 @@
 import { useState } from 'react';
 
 import { ColumnsPhotoAlbum, Photo } from 'react-photo-album';
-// import 'react-photo-album/rows.css';
 
 import Lightbox from 'yet-another-react-lightbox';
 import 'yet-another-react-lightbox/styles.css';
@@ -163,17 +162,17 @@ export default function App() {
 
   return (
     <div className="bg-[#f3f4e7] p-16 flex flex-col items-center space-y-4">
-      <div className="flex space-x-2">
-        <h2 className="text-4xl text-black font-extrabold">Our love moments</h2>
+      <div className="flex">
+        <h2 className="text-center text-4xl text-black font-extrabold">Our love moments</h2>
         <Image
           src={'https://media-public.canva.com/TxOBk/MAFZYqTxOBk/1/tl.png'}
           alt=""
-          width={32}
-          height={32}
+          width={48}
+          height={24}
         />
       </div>
 
-      <p>
+      <p className='text-center'>
         <strong> 03 năm</strong> không dài cũng không ngắn nhưng đủ để cả hai
         quyết định đi một chặng đường dài hơn có nhau và cùng nhau.
       </p>
