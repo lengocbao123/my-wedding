@@ -16,7 +16,7 @@ const TimelineRow = ({
   const [isHovered, setIsHovered] = useState(false);
   return (
     <div
-      className="grid grid-cols-2 sm:grid-cols-3 py-4 cursor-pointer border-t text-gray-500 hover:text-gray-900 border-gray-500 hover:border-gray-900"
+      className="grid grid-cols-3 py-4 gap-3 cursor-pointer border-t text-gray-500 hover:text-gray-900 border-gray-500 hover:border-gray-900"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
@@ -24,7 +24,7 @@ const TimelineRow = ({
         <Image
           alt=""
           className={cx(
-            'w-[127px] h-[80px] rounded transition-all ease-in duration-500',
+            'hidden sm:block w-[127px] h-[80px] rounded transition-all ease-in duration-500',
             !isHovered ? '-translate-x-[127px]' : 'translate-x-0',
           )}
           width={127}
@@ -34,16 +34,14 @@ const TimelineRow = ({
         <div
           className={cx(
             'transition-all duration-500 ease-in',
-            !isHovered ? '-translate-x-[127px]' : 'translate-x-0',
+            !isHovered ? 'sm:-translate-x-[127px]' : 'translate-x-0',
           )}
         >
           {event}
         </div>
       </div>
       <div className="flex items-center text-sm font-light">{location}</div>
-      <div className="uppercase hidden sm:flex gap-3 items-center text-sm font-light">
-        <div className="flex items-center text-sm font-light">{date}</div>
-      </div>
+      <div className="flex items-center text-sm font-light">{date}</div>
     </div>
   );
 };

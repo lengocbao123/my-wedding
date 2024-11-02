@@ -7,13 +7,13 @@ const HeroSection = () => {
         <div className="absolute inset-0 opacity-50 bg-black"/>
         <div className="z-20 w-fit h-fit overflow-hidden text-center py-8">
           <h1 className="text-4xl sm:text-6xl font-semibold text-white">
-            The destination
+            Bảo Châu
           </h1>
           <h1 className="text-4xl sm:text-6xl font-semibold text-white">
-            for your next one
+           Ngọc Bảo
           </h1>
           <h2 className="text-base sm:text-lg text-white py-3">
-            HAFH IS A DISCOVERY PLATFORM FOR THE MODERN TRAVELER
+            Một hành trình mới bắt đầu. Hạnh phúc không phải là bến đỗ mà là con đường ta đang đi, đang vun đắp từng ngày
           </h2>
         </div>
       </div>

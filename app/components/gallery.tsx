@@ -40,13 +40,6 @@ const photos = [
   },
   {
     asset:
-      'https://ik.imagekit.io/gsozk5bngn/Wedding/Copy%20of%20SHO07052_QAH6n4n5q.JPG?updatedAt=1730508473332',
-    width: 1080,
-    height: 720,
-    alt: 'Two hikers walking toward a snow-covered mountain',
-  },
-  {
-    asset:
       'https://ik.imagekit.io/gsozk5bngn/Wedding/004428d222169a48c30776_y0YQSFR7Z.jpg?updatedAt=1730508711415',
     width: 1080,
     height: 1620,
@@ -170,7 +163,7 @@ export default function App() {
 
   return (
     <div className="bg-[#f3f4e7] p-16 flex flex-col items-center space-y-4">
-      <div className='flex space-x-2'>
+      <div className="flex space-x-2">
         <h2 className="text-4xl text-black font-extrabold">Our love moments</h2>
         <Image
           src={'https://media-public.canva.com/TxOBk/MAFZYqTxOBk/1/tl.png'}

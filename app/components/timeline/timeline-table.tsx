@@ -5,22 +5,22 @@ import Image from 'next/image';
 const TimelineTable = () => {
   return (
     <div className="flex flex-col items-center p-16 gap-4">
-      <h2 className='text-4xl text-black font-extrabold'>Cột mốc cuộc đời</h2>
+      <h2 className='text-center text-4xl text-black font-extrabold'>Cột mốc cuộc đời</h2>
       <Image alt="" width={48} height={58} src={'/icon.svg'} />
-      <p>
+      <p className='text-center'>
         Thật hạnh phúc khi Bảo và Châu được thông báo Ngày Trọng Đại đến tất cả
         Quý họ hàng, bạn bè, đồng nghiệp, người quen,..
       </p>
     
       <div className="flex flex-col w-full">
-        <div className="grid grid-cols-2 sm:grid-cols-3 py-4">
+        <div className="grid grid-cols-3 py-4">
           <div className="uppercase text-base text-black font-light">
             Sự kiện
           </div>
           <div className="uppercase text-base text-black font-light">
             Địa điểm
           </div>
-          <div className="hidden sm:block uppercase text-base text-black font-light">
+          <div className="uppercase text-base text-black font-light">
             Thời gian
           </div>
         </div>
