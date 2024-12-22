@@ -20,7 +20,7 @@ const TimelineRow = ({
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="w-full flex min-h-[80px] gap-4 items-center uppercase text-sm font-light overflow-hidden">
+      <div className="w-full flex min-h-[80px] gap-4 items-center uppercase font-light overflow-hidden">
         <Image
           alt=""
           className={cx(
@@ -40,8 +40,8 @@ const TimelineRow = ({
           {event}
         </div>
       </div>
-      <div className="flex items-center text-sm font-light">{location}</div>
-      <div className="flex items-center text-sm font-light">{date}</div>
+      <div className="flex items-center font-light">{location}</div>
+      <div className="flex items-center font-light">{date}</div>
     </div>
   );
 };

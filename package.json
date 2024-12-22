@@ -9,14 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
     "framer-motion": "^11.11.10",
     "lightgallery": "^2.7.2",
+    "lucide-react": "^0.469.0",
     "next": "15.0.2",
     "react": "19.0.0-rc-02c0e824-20241028",
+    "react-day-picker": "8.10.1",
     "react-dom": "19.0.0-rc-02c0e824-20241028",
     "react-fast-marquee": "^1.6.5",
     "react-photo-album": "^3.0.2",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7",
     "yet-another-react-lightbox": "^3.21.6"
   },
   "devDependencies": {

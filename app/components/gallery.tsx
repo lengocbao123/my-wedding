@@ -13,6 +13,7 @@ import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
 import Zoom from 'yet-another-react-lightbox/plugins/zoom';
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 import Image from 'next/image';
+import { greatVibes } from '../constants/font';
 const breakpoints = [1080, 640, 384, 256, 128, 96, 64, 48];
 
 const photos = [
@@ -161,9 +162,9 @@ export default function App() {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div className="bg-[#f3f4e7] p-16 flex flex-col items-center space-y-4">
+    <div className="bg-[#F2EDED] p-16 flex flex-col items-center space-y-4">
       <div className="flex">
-        <h2 className="text-center text-4xl text-black font-extrabold">Our love moments</h2>
+        <h2 className={`${greatVibes.className} text-center text-6xl text-black font-extrabold`}>Our love moments</h2>
         <Image
           src={'https://media-public.canva.com/TxOBk/MAFZYqTxOBk/1/tl.png'}
           alt=""

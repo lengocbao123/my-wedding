@@ -1,8 +1,6 @@
 import type { Metadata } from 'next';
-import { Lato } from 'next/font/google';
 import './globals.css';
-
-const lato = Lato({ subsets: ['latin'], weight: ['400', '700'] });
+import { comfortaa } from './constants/font';
 
 export const metadata: Metadata = {
   title: 'Bao & Chau Wedding',
@@ -16,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} antialiased`}>{children}</body>
+      <body className={`${comfortaa.className} antialiased`}>{children}</body>
     </html>
   );
 }
