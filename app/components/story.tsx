@@ -4,15 +4,12 @@ import { greatVibes } from '../constants/font';
 const Story = ({}) => {
   return (
     <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-4 bg-[url('https://ik.imagekit.io/gsozk5bngn/Wedding/bg_u5Nz57l79.png')] p-12 overflow-hidden h-[800px]">
-      <Image
-        className="absolute -left-[100px] -top-2 hidden sm:block"
-        src="/flower-1.png"
-        alt=""
-        width={346}
-        height={346}
-      />
       <div className="col-span-1 flex flex-col items-start justify-center gap-4">
-        <h2 className={`${greatVibes.className} text-center text-6xl text-black font-extrabold`}>Câu chuyện</h2>
+        <h2
+          className={`${greatVibes.className} text-center text-6xl text-black font-extrabold`}
+        >
+          Câu chuyện
+        </h2>
         <p className="text-black">
           5 năm bên nhau không phải là quãng thời gian quá dài, nhưng đủ cho
           chúng ta nhận ra được rất nhiều điều. Yêu nhau, vun vén hạnh phúc và
@@ -36,25 +33,26 @@ const Story = ({}) => {
             height={346}
           />
           <div className="w-fit h-18 p-4 bg-[#c4d7e7]/60 z-1 right-0 absolute z-10 -bottom-20  items-center justify-center hidden sm:flex whitespace-nowrap">
-            <h2 className={`${greatVibes.className} text-4xl font-bold`}>We&apos;re getting married</h2>
+            <h2 className={`${greatVibes.className} text-4xl font-bold`}>
+              We&apos;re getting married
+            </h2>
           </div>
         </div>
       </div>
 
       <Image
-        className="absolute -right-[100px] transform -scale-x-[1] hidden sm:block"
-        src="/flower-1.png"
+        className="absolute z-10"
+        height={600}
+        width={300}
         alt=""
-        width={346}
-        height={346}
+        src="https://ik.imagekit.io/gsozk5bngn/Wedding/invitation-left-img_13syK4oDa.png"
       />
-
       <Image
-        className="absolute -right-[90px] top-[400px] hidden sm:block"
-        src="/snow.png"
+        className="absolute z-10 bottom-0 right-0"
+        height={629}
+        width={495}
         alt=""
-        width={180}
-        height={128}
+        src="https://ik.imagekit.io/gsozk5bngn/Wedding/invitation-right-image_7wG9RMgBa.png"
       />
     </div>
   );

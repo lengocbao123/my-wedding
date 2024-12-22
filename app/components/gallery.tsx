@@ -131,6 +131,13 @@ const photos = [
   },
   {
     asset:
+      'https://ik.imagekit.io/gsozk5bngn/Wedding/Copy%20of%20SHO07102_kiGkZBBYx.JPG?updatedAt=173050847371',
+    width: 1080,
+    height: 1620,
+    alt: 'A hiker sitting near the cliff',
+  },
+  {
+    asset:
       'https://ik.imagekit.io/gsozk5bngn/Wedding/Copy%20of%20SHO07129_Vx6j7nLJ_.JPG?updatedAt=1730508476543',
     width: 1080,
     height: 595,
@@ -164,7 +171,7 @@ export default function App() {
   return (
     <div className="bg-[#F2EDED] p-16 flex flex-col items-center space-y-4">
       <div className="flex">
-        <h2 className={`${greatVibes.className} text-center text-6xl text-black font-extrabold`}>Our love moments</h2>
+        <h2 className={`${greatVibes.className} text-center text-6xl text-black font-extrabold`}>Khoảnh khắc yêu thương</h2>
         <Image
           src={'https://media-public.canva.com/TxOBk/MAFZYqTxOBk/1/tl.png'}
           alt=""
