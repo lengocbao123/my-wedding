@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export const CalendarSection = () => {
   const totalDays = differenceInDays(
-    new Date('2025-02-22T00:00:00'),
+    new Date('2025-01-08T00:00:00'),
     new Date(Date.now()),
   );
 
@@ -53,8 +53,8 @@ export const CalendarSection = () => {
           <Calendar
             mode="single"
             disableNavigation
-            defaultMonth={new Date('2025-02-28T00:00:00')}
-            selected={new Date('2025-02-22T00:00:00')}
+            defaultMonth={new Date('2025-01-31T00:00:00')}
+            selected={new Date('2025-01-08T00:00:00')}
             className="border-0"
           />
 
