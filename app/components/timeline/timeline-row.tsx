@@ -33,15 +33,15 @@ const TimelineRow = ({
         />
         <div
           className={cx(
-            'transition-all duration-500 ease-in',
+            'text-sm sm:text-base transition-all duration-500 ease-in',
             !isHovered ? 'sm:-translate-x-[127px]' : 'translate-x-0',
           )}
         >
           {event}
         </div>
       </div>
-      <div className="flex items-center font-light">{location}</div>
-      <div className="flex items-center font-light">{date}</div>
+      <div className="text-sm sm:text-base flex items-center font-light">{location}</div>
+      <div className="text-sm sm:text-base flex items-center font-light whitespace-nowrap">{date}</div>
     </div>
   );
 };

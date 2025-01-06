@@ -19,13 +19,13 @@ const TimelineTable = () => {
 
       <div className="flex flex-col w-full">
         <div className="grid grid-cols-3 py-4">
-          <div className="uppercase text-base text-black font-light">
+          <div className="text-sm sm:text-base uppercase text-black font-light whitespace-nowrap">
             Sự kiện
           </div>
-          <div className="uppercase text-base text-black font-light">
+          <div className="text-sm sm:text-base uppercase text-black font-light whitespace-nowrap">
             Địa điểm
           </div>
-          <div className="uppercase text-base text-black font-light">
+          <div className="text-sm sm:text-base uppercase text-black font-light whitespace-nowrap">
             Thời gian
           </div>
         </div>

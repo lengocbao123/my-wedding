@@ -32,7 +32,7 @@ export const CalendarSection = () => {
           <h3 className={`${greatVibes.className} text-5xl`}>Save the Date</h3>
           <p>For the wedding of</p>
           <h3 className="text-2xl">Ngọc Bảo & Bảo Châu</h3>
-          <p className="text-lg">
+          <p className="ttext-sm sm:text-base">
             Sự hiện diện của mọi người chắc chắn sẽ làm cho đám cưới của chúng mình có
             thêm niềm hạnh phúc!
           </p>

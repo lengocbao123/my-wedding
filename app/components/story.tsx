@@ -5,19 +5,19 @@ import { greatVibes } from '../constants/font';
 const Story = ({}) => {
   return (
         <div className="relative grid grid-cols-1 sm:grid-cols-2 gap-4 bg-[url('https://ik.imagekit.io/gsozk5bngn/Wedding/bg_u5Nz57l79.png')] p-12 overflow-hidden h-[800px]">
-          <div className="col-span-1 flex flex-col items-start justify-center gap-4">
+          <div className="col-span-1 flex flex-col items-center sm:items-start justify-center gap-4 z-20">
             <h2
               className={`${greatVibes.className} text-center text-6xl text-black font-extrabold`}
             >
               Câu chuyện
             </h2>
-            <p className="text-black">
+            <p className="text-black text-sm sm:text-base">
               Mọi chuyện bắt đầu từ một cuộc gặp gỡ bạn bè rất bình thường,
               nhưng lại trở thành một điều không thể thiếu trong cuộc sống của
               cả hai. Sau bao nhiêu buổi hẹn hò, những cột mốc lớn nhỏ, hành
               trình ấy đã dẫn chúng ta đến đây.
             </p>
-            <div className="bg-stone-300 rounded-lg py-1 px-2">
+            <div className="bg-stone-300 rounded-lg py-1 px-2 text-sm sm:text-base">
               Rất cảm ơn bạn N*** đã kéo hai đứa lại với nhau.
             </div>
           </div>
@@ -25,7 +25,7 @@ const Story = ({}) => {
             <div className="relative flex items-end justify-end">
               <div className="h-96 w-96 bg-[#c5d0d7] -rotate-[20deg] hidden sm:block"></div>
               <Image
-                className="h-auto sm:h-[436px] w-full sm:w-[436px] max-w-[436px] border-0 rounded sm:border-[20px] static sm:absolute inset-0"
+                className="h-auto sm:h-[436px] w-full sm:w-[436px] max-w-[436px] border-0 rounded sm:border-[20px] static sm:absolute inset-0 z-20"
                 src={
                   'https://ik.imagekit.io/gsozk5bngn/Wedding/Copy%20of%20SHO07052_QAH6n4n5q_5sbNergSG.JPG'
                 }
