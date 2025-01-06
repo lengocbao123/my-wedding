@@ -37,7 +37,7 @@ export const CalendarSection = () => {
             thêm niềm hạnh phúc!
           </p>
 
-          <div className="w-full">
+          {/* <div className="w-full">
             <p>
               <strong>Thời gian</strong>: 19h00 22 Tháng 2 Năm 2025
             </p>
@@ -45,7 +45,7 @@ export const CalendarSection = () => {
             <strong>Địa điểm</strong>: Trung Tâm Hội Nghị - Tiệc Cưới Riverside Palace, 360D Đ. Bến Vân
               Đồn, Phường 1, Quận 4, Hồ Chí Minh.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="p-8 bg-white ">
