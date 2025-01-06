@@ -33,7 +33,7 @@ const Story = ({}) => {
                 width={346}
                 height={346}
               />
-              <div className="w-fit h-18 p-4 bg-[#c4d7e7]/60 z-1 right-0 absolute z-10 -bottom-20  items-center justify-center hidden sm:flex whitespace-nowrap">
+              <div className="w-fit h-18 p-4 bg-[#c4d7e7]/60 z-1 right-0 absolute z-20 -bottom-20  items-center justify-center hidden sm:flex whitespace-nowrap">
                 <h2 className={`${greatVibes.className} text-4xl font-bold`}>
                   We&apos;re getting married
                 </h2>
